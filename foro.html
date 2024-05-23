@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/en-pagina/Logo_Barra_Nav-removebg.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header-foro">
+        <div class="menu container">
+            <a href="index.html" class="logo rotate-360"><img src="images/en-pagina/Logo_Barra_Nav-removebg.png"
+                    alt=""></a>
+            <input type="checkbox" id="menu" /> <!-- Menu Hamburguesa-->
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="catalogo.html">Catálogo</a></li>
+                    <li><a href="iniciar_sesion.html">Iniciar Sesion</a></li>
+                    <li><a href="registro.html">Registrarse</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-content container">
+            <h1>Foro de Comentarios</h1>
+        </div>
+    </header>
+
+
+    <div class="caja-comentarios ">
+        <div class="container-foro">
+            <h1>Algunos usuarios dicen...</h1>
+            <div class="comments">
+                
+                    <div class="comment">
+                        <div class="comment-1">
+                            <img src="images/en-pagina/usuario foto.png" alt="Foto de Usuario 1">
+                            <h3>Juanceto01</h3>
+                        </div>
+                        <h4>GOTY</h4>
+                        <p>Red Dead Redemption 2 debía ser el GOTY 2018, no God of War 4. RDR2 ofrece un mundo abierto increíblemente detallado y una narrativa 
+                            profunda que supera a cualquier otro juego de ese año. Rockstar logró algo verdaderamente excepcional.</p>
+                    </div>
+
+                    <div class="comment">
+                        <div class="comment-1">
+                            <img src="images/en-pagina/usuario foto.png" alt="Foto de Usuario 1">
+                            <h3>XxDragon_killer999xX</h3>
+                        </div>
+                        <h4>SpeedRun</h4>
+                        <p>Hacer speedrun en Minecraft es todo un desafío. La clave está en dominar el Nether, 
+                            encontrar fortalezas rápidamente y saber cuándo usar Ender Pearls. Planea bien tus rutas, practica
+                             el crafting rápido y aprende a manejar el RNG. Es intenso, pero lograr un buen tiempo es 
+                             increíblemente gratificante.</p>
+                    </div>
+                    <div class="comment">
+                        <div class="comment-1">
+                            <img src="images/en-pagina/usuario foto.png" alt="Foto de Usuario 1">
+                            <h3>Vendedor_De_Empanadas98</h3>
+                        </div>
+                        <h4>Reseña</h4>
+                        <p>Terraria es una joya del gaming indie. Con su estilo retro en 2D, ofrece una increíble 
+                            mezcla de exploración, construcción y combate. Cada partida es única gracias a sus mundos generados 
+                            aleatoriamente y su infinita variedad de ítems y enemigos. 
+                            Ideal para quienes aman la creatividad y la aventura.</p>
+                    </div>
+                    <div class="comment">
+                        <div class="comment-1">
+                            <img src="images/en-pagina/usuario foto.png" alt="Foto de Usuario 1">
+                            <h3>Lukitas_Carp24</h3>
+                        </div>
+                        <h4>Crítica</h4>
+                        <p>League of Legends es adictivo y bien diseñado, pero su comunidad tóxica arruina 
+                            la experiencia. El juego en sí es sólido con un buen equilibrio y frecuentes 
+                            actualizaciones, pero el comportamiento negativo
+                             de los jugadores hace que muchas partidas sean frustrantes. Riot Games 
+                             necesita abordar este problema seriamente.</p>
+                    </div>
+                    <div class="comment">
+                        <div class="comment-1">
+                            <img src="images/en-pagina/usuario foto.png" alt="Foto de Usuario 1">
+                            <h3>Orion</h3>
+                        </div>
+                        <h4>Guias</h4>
+                        <p>Para sobrevivir en Dead by Daylight, mantén la calma y usa el sigilo. 
+                            Escucha atentamente el latido del corazón para detectar al asesino y 
+                            usa el entorno para esconderte. Trabaja en equipo para reparar generadores 
+                            rápidamente y salva a tus compañeros de manera estratégica. ¡Y siempre ten 
+                            un plan de escape listo!</p>
+                    </div>
+                    <div class="comment">
+                        <div class="comment-1">
+                            <img src="images/en-pagina/usuario foto.png" alt="Foto de Usuario 1">
+                            <h3>Conter_Pasión22</h3>
+                        </div>
+                        <h4>Competitivo</h4>
+                        <p>Estoy buscando jugadores serios y dedicados para formar un equipo competitivo en Counter-Strike 2. 
+                            Si tienes habilidades, buena comunicación y ganas de 
+                            subir en el ranking, únete a nosotros. Envíame un mensaje privado 
+                            para más detalles y coordinar partidas de prueba.</p>
+                    </div>
+            
+            </div>
+
+            <div class="new-comment container">
+                <h2>Agregar un Comentario</h2>
+                <form action="#">
+                    <label for="opciones">
+                        <h4>Elige un Tema Para Hablar:</h4>
+                    </label>
+                    <select id="opciones" name="opciones">
+                        <option value="opcion1">Reseña</option>
+                        <option value="opcion2">Guias</option>
+                        <option value="opcion3">Juego del Año (GOTY)</option>
+                        <option value="opcion3">SpeedRun</option>
+                        <option value="opcion3">Competitivo</option>
+                        <option value="opcion3">Crítica</option>
+                        <option value="opcion4">Otro</option>
+                        <!-- Puedes agregar más opciones aquí -->
+                    </select>
+
+                    <label for="comment">Comentario:</label>
+                    <textarea id="comment" name="comment" rows="4" class="controls" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <!-- Otros comentarios aquí -->
+        </div>
+
+    </div>
+
+
+
+    <footer class="footer">
+
+        <div class="footer-content container">
+
+            <div class="link">
+                <h3>¡Siguenos!</h3>
+                <ul>
+                    <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+                    <li><a href="https://www.twitch.tv/" target="_blank">Twitch</a></li>
+                    <li><a href="https://web.whatsapp.com/" target="_blank">WhatsApp</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3></h3>
+                <ul>
+                    <li class="rotate-360"><a href="#top" class="logo"><img src="images/en-pagina/Logo_Barra_Nav-removebg.png"
+                                alt=""></a></li>
+
+                </ul>
+            </div>
+            <div class="link">
+                <h3>¡Más!</h3>
+                <ul>
+                    <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
